@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Нажми чтоб скачать бесплатно</title>
+</head>
+<body>
+  <!-- Parser to UserAgent -->
+  <script src="https://cdn.jsdelivr.net/npm/ua-parser-js@0/dist/ua-parser.min.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+  https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-analytics.js"></script>
+
+  <script>
+// Your web app's Firebase configuration
+var firebaseConfig = {
+  apiKey: "AIzaSyDloScXtYpzNNsTZoRngyMBrm-NsjAePxc",
+  authDomain: "islamapp-web.firebaseapp.com",
+  databaseURL: "https://islamapp-web.firebaseio.com",
+  projectId: "islamapp-web",
+  storageBucket: "islamapp-web.appspot.com",
+  messagingSenderId: "633781364978",
+  appId: "1:633781364978:web:4e53fbb79f579ef3c5886b",
+  measurementId: "G-60VL7D1CKS"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
+</script>
+
+<script type="text/javascript">
+  var parser = new UAParser();
+  var result = parser.getResult();
+
+  firebase.analytics().setUserProperties({
+    browser_name: result.browser.name,
+    browser_version_major: result.browser.version.match(/\d*/),
+    device_model: result.device.model,
+    device_type: result.device.type,
+    device_vendor: result.device.vendor,
+    os_name: result.os.name,
+    os_version_major: result.os.version.match(/\d*/)
+  });
+
+  firebase.analytics().logEvent('redirect_page_view', {
+    browser_name: result.browser.name,
+    browser_version_major: result.browser.version.match(/\d*/),
+    device_model: result.device.model,
+    device_type: result.device.type,
+    device_vendor: result.device.vendor,
+    os_name: result.os.name,
+    os_version: result.os.version,
+    os_version_major: result.os.version.match(/\d*/)
+  });
+</script>
+
+<script type="text/javascript">
+  var userDeviceArray = [
+  {device: 'Android', platform: /Android/},
+  {device: 'iPhone', platform: /iPhone/},
+  {device: 'iPad', platform: /iPad/},
+  {device: 'Symbian', platform: /Symbian/},
+  {device: 'Windows Phone', platform: /Windows Phone/},
+  {device: 'Tablet OS', platform: /Tablet OS/},
+  {device: 'Linux', platform: /Linux/},
+  {device: 'Windows', platform: /Windows NT/},
+  {device: 'Macintosh', platform: /Macintosh/}
+  ];
+
+  var platform = navigator.userAgent;
+
+  function getPlatform() {
+    for (var i in userDeviceArray) {
+      if (userDeviceArray[i].platform.test(platform)) {
+        return userDeviceArray[i].device;
+      }
+    }
+    return 'Неизвестная платформа!' + platform;
+  }
+
+  if (getPlatform() == 'iPhone') {
+  window.location.href = 'https://itunes.apple.com/app/id1452368807';
+  }
+
+  if (getPlatform() == 'Android') {
+  window.location.href = 'http://play.google.com/store/apps/details?id=islam.islamapp';
+  }
+</script>
+</body>
+</html>

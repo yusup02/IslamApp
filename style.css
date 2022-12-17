@@ -1,0 +1,846 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+}
+
+html {
+  height: 101%;
+}
+
+/* always display scrollbars */
+body {
+  font-size: 62.5%;
+  line-height: 1;
+  background-color: #F8F8F8 !important;
+  font-family: 'SF Pro Text';
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+strong {
+  font-weight: bold;
+}
+
+input {
+  outline: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.banner_img_2 {
+  display: none;
+}
+
+
+.header {
+  width: 100%;
+}
+
+
+.conteiner {
+  max-width: 1180px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+
+}
+
+.inner_baner {
+  max-width: 493px;
+  width: 100%;
+  height: 266px;
+}
+
+.inner_islamApp {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 120%;
+}
+
+.inner_text {
+
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  margin-top: 24px;
+}
+
+.inner_logo {
+  width: 164px;
+  height: 40px;
+  padding-top: 58px;
+}
+
+.logo {
+  width: 164px;
+  height: 40px;
+}
+
+.baner {
+  padding: 0px;
+  gap: 38px;
+  width: 493px;
+  height: 363.62px;
+  padding-left: 80px;
+  padding-top: 70px;
+
+}
+
+.baner_img_2 {
+  display: none;
+}
+
+
+.play {
+  padding-top: 0;
+  height: 59.62px;
+
+
+}
+
+.play_1 {
+  display: none;
+
+  padding-top: 0;
+  height: 59.62px;
+  width: 171px !important;
+height: 51px !important;
+margin-left: 65px;
+border-radius: 16px;
+margin-top: 36px;
+}
+
+.play_l {
+  height: 59.62px;
+  width: 171px;
+height: 51px;
+background: #299E46;
+border-radius: 16px;
+color: #ffff;
+border: 0;
+opacity: 1;
+}
+
+.play_l:hover {
+  background: #1b672e;
+}
+
+.Google_Play {
+  width: 200px;
+  height: 59.62px;
+}
+
+
+.Google_Play_right {
+  padding-left: 16px;
+}
+
+.baner_title {
+  width: 417px;
+  height: 511px;
+  margin-left: auto;
+  margin-right: 80px;
+  margin-top: -40px;
+
+}
+
+.baner_index {
+  width: 100%;
+  display: flex;
+  margin-top: 120px;
+  background-color: #B8FF65;
+  height: 427.62px;
+  border-radius: 60px;
+}
+
+
+.inner_card {
+  width: 780px;
+  height: 690px;
+  margin: 0 auto !important;
+  margin-top: 64px !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.inner_values {
+  margin-top: 120px;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+
+.card {
+  margin-left: 20px;
+  justify-content: center;
+}
+
+.card_left {
+  margin-left: 0 !important;
+}
+
+.card-title {
+  margin-left: 24px;
+  margin-top: 53px;
+  height: 80px;
+}
+
+.card-title_1 {
+  width: 192px;
+}
+
+.card-title_2 {
+  width: 287px;
+}
+
+.card-title_3 {
+  width: 235px;
+}
+
+.card-title_4 {
+  width: 321px;
+
+}
+
+.card_text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.card {
+  width: 380px !important;
+  height: 329px !important;
+  border-radius: 16px !important;
+  background-color: #ffff;
+
+}
+
+.card_1 {
+  background-color: #B8FF65 !important;
+}
+
+.card_img {
+  float: right;
+
+  margin-right: 24px;
+  margin-top: -16px !important;
+}
+
+.card_1_img {
+
+  width: 160px;
+  height: 200px;
+}
+
+.card_2_img {
+  width: 254px;
+  height: 111px;
+
+  margin-top: 68px !important;
+}
+
+.card_3_img {
+  width: 252px;
+  height: 153.19px;
+  margin-top: 26px !important;
+}
+
+.card_4_img {
+  width: 140px;
+  height: 152px;
+  margin-top: 27px !important;
+
+}
+
+.play_mobail {
+  display: none;
+}
+
+.banner_img_3 {
+  display: none;
+}
+
+.si {
+  display: none !important;
+}
+
+
+
+@media (max-width: 1245px) {
+  .conteiner {
+    max-width: 904px !important;
+    width: 100% !important;
+  }
+
+  .banner_img_2 {
+    display: block !important;
+    height: 100%;
+    width: 100%;
+
+  }
+
+  .baner_img {
+    display: none;
+  }
+
+  .baner_title {
+    display: block;
+    width: 174.44px;
+    height: 347.6px;
+
+    margin-top: 30px;
+    margin-right: 116px;
+  }
+
+  .baner_index {
+    height: 409px;
+  }
+
+  .baner {
+    width: 493px;
+    height: 181px;
+
+    margin-left: 116px;
+    margin-top: 70px;
+    padding-top: 0;
+    padding-left: 0;
+  }
+
+  .inner_baner {
+    width: 493px;
+    height: 181px;
+  }
+
+  .inner_text {
+    width: 100%;
+    height: 102px;
+
+    font-family: 'SF Pro Text';
+    text-align: start !important;
+  }
+
+.play {
+  margin-top: 50px;
+}
+
+
+}
+
+
+@media (max-width: 1025px) {
+.play {
+  display: none;
+}
+
+.play_1 {
+  display: block;
+  margin-top: 36px;
+  margin-left: 0;
+}
+
+.play_l {
+  margin-left: 0 !important;
+}
+
+
+}
+
+@media (max-width: 950px) {
+  .conteiner{
+    max-width: 754px !important;
+    width: 100% !important;
+    margin: auto !important;
+  }
+
+  .inner_logo {
+    padding-top: 23px;
+  }
+
+  .baner_index {
+
+    width: 754px !important;
+    display: flex;
+    height: 340px !important;
+
+    margin-top: 23px;
+
+  }
+
+
+  .inner_baner {
+    width: 493px;
+    height: 145px;
+
+    margin-left: 65px;
+  }
+
+  .baner_title {
+    width: 131px !important;
+    height: 261px !important;
+   
+    display: flex;
+    margin-right: 65px;
+    margin-top: 39px;
+  }
+
+  .play {
+    display: none;
+  }
+
+  .baner {
+    width: 493px;
+    margin-top: 54px;
+    margin-left: 32px;
+    height: 233px;
+  }
+
+  .inner_baner {
+    width: 100%;
+  }
+
+  .title_baner {
+    width: 83%;
+
+  }
+
+  .play_1 {
+    margin-left: 65px;
+
+  }
+
+  .logo {
+    width: 105px;
+    height: 26px;
+  }
+
+  .inner_logo {
+    margin-left: 16px;
+  }
+
+  .inner_text {
+    font-weight: 500;
+font-size: 18px;
+  }
+
+  .inner_islamApp {
+    font-weight: 700;
+font-size: 38px;
+  }
+
+
+  .card {
+    margin-left: 24px !important;
+
+    width: 328px !important;
+height: 286px !important;
+
+  }
+
+  .card_text {
+    font-size: 22px !important;
+  }
+
+  .card-title_1 {
+    width: 114px;
+height: 64px;
+  }
+
+  .card-title_2 {
+    width: 231px;
+height: 64px;
+  }
+
+  .card-title_3 {
+    width: 114px;
+height: 64px;
+  }
+
+  .card-title_4 {
+    width: 231px;
+height: 64px;
+  }
+
+  .card_img {
+    margin-right: 16px;
+    margin-top: 8px !important;
+  }
+
+  .card_1_img {
+    width: 117px;
+height: 142px;
+  }
+
+  .card_2_img {
+    width: 167px;
+height: 73px;
+  }
+
+  .card_3_img {
+    width: 167px;
+    height: 103px;
+  }
+
+  .card_4_img {
+    width: 117px;
+height: 115px;
+  }
+
+
+}
+
+
+@media (max-width: 795px) {
+
+.conteiner {
+  max-width: 670px !important;
+}
+
+  .baner_index {
+    width: 658px !important;
+  }
+
+  .baner {
+    margin-left: 0;
+  }
+
+  .baner_title {
+    margin-right: 37px;
+  }
+
+  .inner_card {
+    width: 650px;
+    height: 576px;
+  }
+
+  .card {
+    margin-left: 15px !important;
+    width: 305px !important;
+    height: 274px !important;
+  }
+
+  .card_img {
+    margin-top: 0 !important;
+  }
+}
+
+
+@media (max-width: 680px) {
+
+  .baner {
+    text-align: center;
+  width: 100%;
+height: 206px;
+left: 0px;
+top: 126px;
+    margin-top: 78px;
+
+    margin: auto;
+  }
+
+  .baner_index {
+    width: 100% !important;
+    height: 720px !important;
+
+    border-radius: 0;
+
+   
+    flex-direction: column;
+  }
+
+  .inner_baner {
+    margin-left: 0;
+  }
+
+
+  .inner_islamApp {
+    font-size: 36px;
+  }
+
+  .inner_text {
+    font-size: 16px !important;
+    text-align: center !important;
+  }
+
+  .baner_title {
+    width: 223px !important;
+    height: 378px !important;
+    margin-right: auto !important;
+
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: flex-end
+  }
+
+  .title_baner {
+    width: 100%;
+  }
+
+  .banner_img_2 {
+    display: none !important;
+  }
+
+
+  .banner_img_3 {
+    display: block;
+    height: 100%;
+    width: 223px !important;
+  }
+
+  .inner_card {
+    width: 580px ;
+    height: 463px;
+  }
+
+  .card-title {
+    margin-top: 35px;
+  }
+
+  .inner_values {
+    font-size: 34px;
+  }
+
+  .r {
+    display: block;
+  }
+
+  .card {
+    width: 343px !important;
+    height: 216px !important;
+  }
+
+  .conteiner {
+    max-width: 580px !important;
+    width: 100%;
+  }
+
+  .conteiner-2 {
+    min-width: 100% !important;
+  }
+
+  
+
+.card_img {
+  width: 120px;
+    height: 119px;
+    margin-top: -15px !important;
+}
+
+.card_1_img {
+  width: 99px;
+    height: 119px;
+    margin-top: 0 !important;
+}
+
+.card_2_img {
+  width: 100px;
+    height: 64px;
+    margin-top: 55px !important;
+}
+
+.card_3_img {
+  width: 120px;
+  height: 103px;
+    margin-top: 0 !important;
+}
+
+.card_4_img {
+  width: 99px;
+    height: 106px;
+    margin-top: 0 !important;
+    padding-left: 10px;
+}
+
+.card_text {
+  font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+}
+
+.card {
+  margin-left: 15px !important;
+  width: 275px !important;
+}
+
+.conteiner-2 {
+  min-width:100% !important;
+}
+
+
+.play_1 {
+  margin: auto;
+  margin-top: 24px;
+}
+
+}
+
+
+@media (max-width: 580px) {
+
+  .si {
+    height: 232px;
+    display: block !important;
+    margin-top: 24px;
+  }
+
+  .conteiner {
+    width: 343px !important;
+  }
+
+  .card {
+    margin-left: 0 !important;
+    width: 343px !important;
+  }
+
+  .inner_values {
+    font-size: 24px;
+  }
+
+  .inner_card {
+    display: none;
+  }
+
+}
+
+@media (max-width: 330px) {
+  .conteiner {
+    width: 300px !important;
+  }
+
+  .card {
+    width: 300px !important;
+    margin-left: 0 !important;
+  }
+}
